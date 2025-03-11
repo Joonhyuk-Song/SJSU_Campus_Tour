@@ -6,24 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
+    <!-- TextureView for displaying the live camera feed -->
+    <TextureView
+        android:id="@+id/textureView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
         android:id="@+id/imageView"
-        android:onClick="selectImage"
-        android:background="#8BC34A"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-2dp"
+        android:contentDescription="Predicted Image"
+        android:scaleType="centerCrop" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="predict"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:id="@+id/predict"
-        android:layout_alignParentBottom="true"
-        android:onClick="predict"
-        />
-
+        android:onClick="ask"
+        android:text="Ask" />
 
 </RelativeLayout>

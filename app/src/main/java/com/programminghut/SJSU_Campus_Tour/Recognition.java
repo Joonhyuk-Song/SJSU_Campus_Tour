@@ -1,4 +1,4 @@
-package com.programminghut.yolo_deploy;
+package com.programminghut.SJSU_Campus_Tour;
 
 import android.graphics.RectF;
 

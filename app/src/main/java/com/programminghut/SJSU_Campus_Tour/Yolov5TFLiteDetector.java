@@ -1,21 +1,16 @@
-package com.programminghut.yolo_deploy;
+package com.programminghut.SJSU_Campus_Tour;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.RectF;
-import android.os.Binder;
 import android.os.Build;
 import android.util.Log;
 import android.util.Size;
 import android.widget.Toast;
 
 
-import org.checkerframework.checker.nullness.Opt;
-import org.checkerframework.checker.units.qual.C;
 import org.tensorflow.lite.DataType;
-import org.tensorflow.lite.Delegate;
 import org.tensorflow.lite.Interpreter;
-import org.tensorflow.lite.InterpreterFactory;
 import org.tensorflow.lite.gpu.GpuDelegate;
 import org.tensorflow.lite.gpu.CompatibilityList;
 import org.tensorflow.lite.nnapi.NnApiDelegate;
@@ -30,7 +25,6 @@ import org.tensorflow.lite.support.image.TensorImage;
 import org.tensorflow.lite.support.image.ops.ResizeOp;
 import org.tensorflow.lite.support.metadata.MetadataExtractor;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
-import org.tensorflow.lite.support.metadata.MetadataParser;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -39,9 +33,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
-
-
-import android.graphics.RectF;
 
 
 public class Yolov5TFLiteDetector {
@@ -389,4 +380,3 @@ public class Yolov5TFLiteDetector {
     }
 
 }
-

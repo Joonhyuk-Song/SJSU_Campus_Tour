@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "yolo_deploy"
+rootProject.name = "SJSU_Campus_Tour"
 include(":app")
