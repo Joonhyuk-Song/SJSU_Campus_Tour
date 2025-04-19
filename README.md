@@ -1,7 +1,5 @@
 # Multi-Modal SJSU Campus Tour App
 
-**Joon Hyuk Song, Jason Luu, Connor Chen, Chelsie Chen**
-
 ### **Project Description**
 This project seeks to provide students and parents with an accessible and comprehensive resource to learn more about San Jose State University (SJSU), catering mainly to those who missed the in-person orientation or experienced challenges with campus tours. Although Google Maps can identify building locations, it often lacks detailed contextual information, leaving many reliant on outdated paper maps that are incomplete and insufficient. Additionally, the lack of integration between the map's data and users' views requires repeated searches for individual building details, making the process inefficient and frustrating. This project aims to deliver a streamlined, user-friendly solution for navigating and understanding the SJSU campus by addressing these gaps.
 
